@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="204.157" y1="-574.658" x2="204.157" y2="254.17" id="gradient-0">
+      <stop offset="0" style="stop-color: rgba(146, 129, 255, 1)"/>
+      <stop offset="1" style="stop-color: rgba(57, 27, 255, 1)"/>
+    </linearGradient>
+  </defs>
+  <rect x="-884.217" y="-415.169" width="2557.726" height="1191.572" style="fill: rgba(255, 255, 255, 0);" rx="293.232" ry="293.232"/>
+  <path id="footer_-_bg" data-name="footer - bg" d="M -583.345 -322.117 C -583.345 -322.117 -1233.328 -574.658 -753.328 -574.658 C -273.328 -574.658 1338.351 -283.132 1338.351 -283.132 L 1336.656 254.17 L -583.345 254.17 L -583.345 -322.117 Z" style="fill-rule: nonzero; paint-order: fill; fill: url(#gradient-0); fill-opacity: 0.54;" transform="matrix(-1, 0, 0, -1, 753.311035, -161.159973)"/>
+</svg>

@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.navbar-brand>img{
+    width: 120px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.nav-text{
+    font-size: 17px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.top-search{
+    background: none;
+    border: 2px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    top: 50%;
+    transform: translate(-50%);
+}
+.top-search:hover{
+    color: #fff;
+}
+.top-search::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.top-srch::before{
+    transform: scaleY(0);
+}
+.top-srch:hover::before{
+    transform: scaleY(1);
+}
+.mensa-first-heading{
+    font-weight: 700;
+    margin-top: 150px;
+    font-size: 27px;
+}
+.mensa-first-para{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.second-btn{
+    margin-left: 100px;
+}
+.header-section{
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    background-image: url('/main-bg.jpg');
+    background-repeat: no-repeat;
+
+  
+}
+.feture-details{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+.first-text-div, .second-text>p{
+    text-align: justify;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+    font-size: 16px;
+}
+.first-text-div>h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.first-ul,.second-ul>li>p{
+    text-align: justify;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+    font-size: 16px;
+}
+.first-ul ,.second-ul>li{
+    list-style-type: square;
+}
+.first-ul>li::marker{
+    color: rgb(255, 102, 0);
+}
+.second-ul>li::marker{
+    color: rgb(0, 148, 12);
+}
+.second-text>h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.second-part{
+    background:url("Capture.PNG");
+}
+.footer1{
+    color: rgb(0, 0, 0);
+    text-align: left !important;
+}
+.footer-text>a{
+    text-align: left;
+    color: rgb(255, 255, 255) !important;
+}
